@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/22/06/57/game-background-4956017_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color:#F8F7FE;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#F8F7FE;
+
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border: 2px solid black;
+   width: 630px;
+   background-color: #465975;
+    
+  
+}
+
+ul{
+    display: grid;
+    place-items: center;
+    
+}
+
+ul p{
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+}
+
+ul:hover{
+    cursor: pointer;
+    background-color: rgb(98, 136, 238);
+}
+
+
